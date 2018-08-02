@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	$_SESSION['id']="";
+	$_SESSION['name']="";
+	$_SESSION['user_id']="";
+	$_SESSION['password']="";
+	$_SESSION['user_type']="";
+	header("Location:index.php");
+?>
